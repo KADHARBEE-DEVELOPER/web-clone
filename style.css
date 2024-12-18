@@ -1,0 +1,773 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 1;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.navbar ul {
+  display: flex;
+
+  align-items: center;
+}
+.navbar {
+  display: flex;
+}
+.navbar .n li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+.hamburger {
+  display: none; /* Hidden by default */
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.navbar .n1 li {
+  list-style: none;
+  justify-content: space-evenly;
+  padding-left: 14px;
+}
+
+.navbar .image {
+  padding-left: 5px;
+  padding-top: 10px;
+}
+.navbar .n1 li button {
+  width: 120px;
+  height: 45px;
+  border-radius: 10%;
+}
+.FrontPage .img1 {
+  margin-bottom: 0px;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+.process {
+  display: inline-block; /* Ensures the span behaves like a block for proper border rendering */
+  color: rgb(42, 138, 226); /* Text color */
+  border-bottom: 4px double rgb(42, 138, 226); /* Adds a double border line */
+  padding-bottom: 5px; /* Space between the text and the double line */
+}
+
+.contentFP {
+  color: white;
+  position: absolute;
+  left: 10%;
+  top: 200px;
+  z-index: 3;
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+}
+
+.contentFP1 {
+  width: 770px;
+  height: 100%;
+}
+.contentFP1 {
+  padding-left: 25px;
+}
+.contentFP1 h1 {
+  padding-bottom: 25px;
+}
+.contentFP1 p {
+  padding-bottom: 15px;
+}
+.contentFPb {
+  width: 152px;
+  height: 50px;
+  border-radius: 3px;
+}
+
+.contentFPVB {
+  margin-top: 117px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+.contentFPVB1 img {
+  width: 75px;
+  height: 55px;
+}
+
+.contentFPVBc {
+  width: 106px;
+  height: 50px;
+}
+.shadowFP {
+  width: 100%;
+  height: 700px;
+  background-image: linear-gradient(
+    360deg,
+    black,
+    transparent 80%,
+    transparent
+  );
+  shape-outside: linear-gradient(360deg, black, transparent 80%, transparent);
+  shape-image-threshold: 0.5; /* Adjusted to a valid value */
+  position: absolute;
+  top: 0;
+}
+.FrontPage .img2 {
+  width: 1663px;
+  height: 122.13px;
+  position: absolute;
+  z-index: 1;
+  top: 580px;
+  right: 0.1px;
+  bottom: 50px;
+}
+.title1 h1 {
+  font-family: "Poppins", sans-serif;
+}
+.title1 h4 {
+  font-family: "DM Sans", sans-serif;
+  padding-top: 10px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards .card {
+  font-family: "Poppins", sans-serif;
+  border-radius: 10%;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 350px;
+  margin: 15px;
+  position: relative;
+  overflow-y: hidden;
+}
+.cards .card h1 {
+  margin-top: 15px;
+}
+.seedling svg {
+  padding-top: 29px;
+}
+.shadow2 {
+  width: 70px;
+  height: 70px;
+  background-image: linear-gradient(
+    170deg,
+    rgb(42, 138, 226),
+    transparent 80%,
+    transparent
+  );
+  shape-outside: linear-gradient(
+    170deg,
+    rgb(0, 0, 0),
+    transparent 80%,
+    transparent
+  );
+  shape-image-threshold: -0.1;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 280px;
+  left: 165px;
+}
+.title2 h1 {
+  font-family: "Poppins", sans-serif;
+}
+.title2 h4 {
+  font-family: "DM Sans", sans-serif;
+  padding-top: 10px;
+}
+.cardimage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardimage .cardimg img {
+  width: 300px;
+  height: 460px;
+  margin: 15px;
+  overflow: none;
+  opacity: 2;
+}
+.cardimage .cardimg h1 {
+  position: absolute;
+  top: 380px;
+  left: 25px;
+  color: rgba(161, 155, 150, 0.541);
+  z-index: 3;
+}
+.cardimage .cardimg {
+  position: relative;
+  overflow: hidden;
+}
+.cardimage .cardimg .shadow {
+  width: 300px;
+  height: 460px;
+  background-image: linear-gradient(30deg, black, transparent 80%, transparent);
+  shape-outside: linear-gradient(30deg, black, transparent 80%, transparent);
+  shape-image-threshold: -0.1;
+  position: absolute;
+  top: 15px;
+  left: 16px;
+}
+button {
+  border: none;
+  background: rgb(42, 138, 226);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.sheet {
+  padding-top: 50px;
+}
+.score {
+  display: flex;
+  justify-content: space-evenly;
+}
+.scores {
+  width: 250px;
+  height: 100px;
+  margin: 15px;
+}
+.sheet .score .scores {
+  display: flex;
+}
+.sheet .score .scores .har {
+  width: 100px;
+  height: 100px;
+}
+.sheet .score .scores .inc {
+  font-weight: 700h1;
+  color: rgb(0, 0, 0);
+}
+.slide1 {
+  overflow-y: hidden;
+}
+.slide1 img {
+  width: 100%;
+  height: 670px;
+}
+.slide1 .slideimg {
+  position: relative;
+  opacity: 3;
+}
+.slide1 .slideimg .shadow3 {
+  width: 100%;
+  height: 670px;
+  background-image: linear-gradient(30deg, black, transparent 90%, transparent);
+  shape-outside: linear-gradient(360deg, black, transparent 90%, transparent);
+  shape-image-threshold: -1;
+  position: absolute;
+  top: 00px;
+}
+.title3 {
+  bottom: 1px;
+  top: 150px;
+  left: 42%;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
+}
+.circleimage {
+  bottom: 1px;
+  top: 470px;
+  left: 44%;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+}
+.circleimage .circleimages img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.Quotes {
+  width: 700px;
+  height: 177px;
+  bottom: 1px;
+  top: 250px;
+  left: 480px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 1;
+  overflow-y: hidden;
+  font-style: italic;
+}
+.title4 {
+  width: 100%;
+  height: 100px;
+  bottom: 1px;
+  padding-top: 50px;
+}
+.Blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blogs {
+  margin: 10px;
+}
+.blogsimg1 {
+  padding-top: 56px;
+}
+.blogsimg1 img {
+  width: 100%;
+  height: 180px;
+}
+.Blog .blogs h4 {
+  margin-top: 40px;
+  margin-left: 15px;
+  padding-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.Blog .blogs p {
+  display: inline;
+  margin-left: 15px;
+  color: rgb(102, 96, 96);
+  font-family: "Poppins", sans-serif;
+}
+.blogsimg2 {
+  padding-top: 0px;
+}
+.blogsimg2 img {
+  width: 100%;
+  height: 180px;
+}
+.contentblog {
+  margin: 15px;
+}
+.inputbox {
+  width: 100%;
+  height: 480px;
+  background: rgb(231, 239, 255);
+}
+.inputbox {
+  padding-top: 100px;
+}
+.inputbox input {
+  width: 50%;
+  height: 50px;
+  border-radius: 35px;
+  position: relative;
+}
+.inputbox svg {
+  position: absolute;
+  right: 440px;
+  top: 3470px;
+}
+.inputbox .img2{
+  width: 1663px;
+  height: 122.13px;
+  position: absolute;
+  z-index: 1;
+  top: 3500px;
+  right: 0.1px;
+  bottom: 50px;
+}
+
+.footer {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer .section1 {
+  width: 400px;
+  height: 209px;
+ 
+  align-items: center;
+  justify-content: center;
+}
+.footer .section2 {
+  width: 300px;
+  height: 209px;
+  align-items: center;
+  justify-content: center;
+}
+.footer .section3 {
+  width: 100px;
+  height: 209px;
+  align-items: center;
+  justify-content: center;
+}
+.footer .section4 {
+  width: 250px;
+  height: 209px;
+  align-items: center;
+  justify-content: center;
+}
+.footer .section1 h1 {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: lighter;
+  font-size: large;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.footer .section1 address {
+  font-style: "DM Sans", sans-serif;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: rgb(102, 96, 96);
+}
+.section2 h1 {
+  margin-left: 10px;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  font-size: large;
+}
+.section2 ul li {
+  margin-left: 10px;
+  margin-top: 15px;
+  color: rgb(102, 96, 96);
+  font-family: "DM Sans", sans-serif;
+}
+.section4 .footerlist li a {
+  text-decoration: none;
+
+  color: rgb(102, 96, 96);
+}
+.section4 .footerlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  margin-top: 30px;
+}
+.section4 ul{
+  list-style: none;
+}
+.section4 .footerlist li {
+  margin-top: 15px;
+}
+.rights ul {
+  
+  color: rgb(102, 96, 96);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;list-style: none;
+}
+.rights ul li p {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+@media screen and (max-width: 1700px) {
+  .contentFP {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 75%;
+  }
+  .contentFPVB {
+    justify-content: flex-start;
+  }
+  .title2 h1 {
+    justify-content: center;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cardimage {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1699px) and (min-width: 769px) {
+  .contentFP {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 75%;
+  }
+  .contentFPVB {
+    justify-content: flex-start;
+    /* Missing property value corrected here */
+    padding: 0; /* Add appropriate value as needed */
+  }
+  .title2 h1 {
+    justify-content: center;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cardimage {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sheet .score {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .contentFP {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50%;
+  }
+  .contentFPVB {
+    justify-content: flex-start;
+  }
+  .contentFP1 p {
+    display: none;
+  }
+
+  .title2 h1 {
+    justify-content: center;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cardimage {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .seedling .shadow2 {
+    left: 140px;
+    bottom: 130px;
+  }
+  .cards .card {
+    width: 100%;
+    height: 200px;
+  }
+  .sheet .score {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .slide1 {
+    width: 100%;
+    height: 400px;
+  }
+  .slide1 img {
+    width: 100%;
+    height: 400px;
+  }
+  .slide1 .slideimg .shadow3 {
+    width: 100%;
+    height: 400px;
+  }
+  .title3 {
+    left: 100px;
+    top: 50px;
+    font-size: 75%;
+  }
+  .Quotes {
+    left: -16em;
+    top: 100px;
+    font-size: 65%;
+  }
+  .circleimage {
+    top: 290px;
+    left: 79px;
+  }
+  .Blog {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .content-blog1 h4 {
+    padding-right: 40px;
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .footer .section1 address{
+    line-height: 190%;
+  }
+  .footer .section2{
+    width: 100%;
+  }
+  .footer .section4{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer .section4 .footerlist .a1{
+  padding-right: 32px;
+  }
+  .inputbox2 .img2
+  {
+    top: 5851px;
+  }
+  .inputbox2 svg{
+    top: 5673px;
+    left:280px;
+  }
+  .inputbox2 input{
+    width: 300px;
+  }
+  .rights ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .rights ul li p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+  .hamburger {
+    display: inline; /* Hidden by default */
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+   margin-left: -50PX;
+    
+  }
+  nav{
+   margin-left: 0px;
+  }
+  .button-nav{
+    display: none;
+  }
+  .navbar{
+    overflow-x: hidden;
+  }
+  .navbar .n{
+    display: none;
+  }
+  .navbar .n1{
+    width: 120px;
+  }
+  .contentFP {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50%;
+  }
+  .contentFPVB {
+    justify-content: flex-start;
+  }
+  .contentFP1 p {
+    display: none;
+  }
+
+  .title2 h1 {
+    justify-content: center;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cardimage {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .seedling .shadow2 {
+    left: 140px;
+    bottom: 130px;
+  }
+  .cards .card {
+    width: 100%;
+    height: 200px;
+  }
+  .sheet .score {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .slide1 {
+    width: 100%;
+    height: 400px;
+  }
+  .slide1 img {
+    width: 100%;
+    height: 400px;
+  }
+  .slide1 .slideimg .shadow3 {
+    width: 100%;
+    height: 400px;
+  }
+  .title3 {
+    left: 100px;
+    top: 50px;
+    font-size: 75%;
+  }
+  .Quotes {
+    left: -16em;
+    top: 100px;
+    font-size: 65%;
+  }
+  .circleimage {
+    top: 290px;
+    left: 79px;
+  }
+  .Blog {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .content-blog1 h4 {
+    padding-right: 40px;
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .footer .section1 address{
+    line-height: 190%;
+  }
+  .footer .section2{
+    width: 100%;
+  }
+  .footer .section4{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer .section4 .footerlist .a1{
+  padding-right: 32px;
+ 
+  }
+ 
+  .inputbox .img2
+  {
+    top: 5950px;
+  }
+  .inputbox svg{
+    top: 5745px;
+    left:280px;
+  }
+  .inputbox input{
+    width: 300px;
+    top: 100px;
+  }
+  .rights ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .rights ul li p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+ 
+}
